@@ -36,7 +36,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url("car.gif");
+    background: url("img/front.gif");
     background-size: cover;
     color: white;
      background-position: center;
