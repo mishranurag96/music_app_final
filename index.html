@@ -6,27 +6,37 @@
     <title> Song App</title>
     <link rel="shortcut icon" href="img/head.jpg" type="images/jpg" />
     <link rel="stylesheet" type="text/css" href="font-awesome.css">
+
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css">
     <link rel="stylesheet" type="text/css" href="main.css">
+
 </head>
 
 <body>
     <div class="wrapper">
         <section class="welcome-screen ">
-            <h1> Welcome to Songify </h1>
-            <h3> Enter user-name and password to access your account </h3>
+            <h1 style="background-color: black;border-radius: 50px; opacity: 0.85;"> Songify-Music App </h1>
+            <h3 style="background-color: black;border-radius: 50px; opacity: 0.85; font-size: 20px;"> Enter user-name and password to access your account </h3>
             <div class="input-wrapper">
-                <div style="padding:10px;"><input type="text" placeholder="User-Name" id="name-input"></div>
-               <div style="padding:10px;"> <input type="text" placeholder="Password" id="pass-input"></div>
+                <div style="padding:10px; display: inline;"><input type="text" placeholder="User-Name" id="name-input">
+                <input type="text" placeholder="Password" id="pass-input">
+
+                </div>
+              
                 <button > Sign In </button>
-                <div style="border-radius: 30px; border: 2px solid green;background-color:  rgb(105, 167, 78);color: white; margin-top: 50px;"><h5><a href="index_virtualizer.html">Click to enjoy the drag & drop feature and virtulizer</a> </h5></div>
+                
 
             </div>
+            <div style="border-radius: 10px; border: 1px solid green;background-color:  rgb(105, 167, 78); margin-top: 50px;"><h5><a href="index_virtualizer.html" style="color: white;">Click to enjoy the drag & drop feature and virtulizer</a> </h5></div>
         </section>
         <div class="main hidden ">
             <header>
-               <i class="fa fa-music fa-lg" aria-hidden="true" style="font-size: 50px;color: white;">Songify</i>
+               <i class="fa fa-music fa-lg" aria-hidden="true" style="font-size: 50px;color: white;">Songify
+                
+
+               </i>
                 <div class="right floated user-name" style="font-size: 20px;">
+
 
                  </div>
             </header>
@@ -34,10 +44,12 @@
 
             <section class="content">
             <div >
-          <img class="slideshow-container mySlides fade" src="https://media.giphy.com/media/VGsMTDfdn3e7u/giphy.gif" style="width:100%;height: 100px;">
+          
           <!-- activate below ones for using carousel also activate the script part present at the last -->
-            <!-- <img class="slideshow-container mySlides fade" src="img/b2.jpg" style="width:100%">
-             <img class="slideshow-container mySlides fade" src="img/b3.jpg" style="width:100%"> -->
+            <img class="slideshow-container mySlides fade" src="img/b2.jpg" style="width:100%">
+             <img class="slideshow-container mySlides fade" src="img/b3.jpg" style="width:100%">
+             <img class="slideshow-container mySlides fade" src="img/b4.jpg" style="width:100%">
+            
           </div>
 
           <div style="text-align:center">
@@ -114,8 +126,8 @@
             </footer>
         </div>
     </div>
-   <!--  <script>
-   ENABLE THIS IN CASE YOU WANT TO USE CAROUSEL
+    <script>
+   // ENABLE THIS IN CASE YOU WANT TO USE CAROUSEL
 var slideIndex = 0;
 showSlides();
 
@@ -133,9 +145,9 @@ function showSlides() {
     }
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
+    setTimeout(showSlides, 1000); // Change image every 2 seconds
 }
-</script> -->
+</script>
    <script src="jquery.js">
     </script>
     <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js">
