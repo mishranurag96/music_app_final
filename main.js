@@ -4,6 +4,7 @@
         var willLoop = 0;
         var willShuffle = 0; // will use this soon
 
+
        //for looping and changing the loop icon
         $('.fa-repeat').on('click',function() {
             $('.fa-repeat').toggleClass('disabled')
@@ -102,6 +103,7 @@
             song.pause();
              }
         } 
+
 
 
 
@@ -285,7 +287,7 @@
             $('.welcome-screen button').on('click', function() {
         var name = $('#name-input').val();
         var pass = $('#pass-input').val();
-        if (name == "Anurag" && pass == 1234) {
+        if (name == "anurag" && pass == 1234) {
             var message = "Welcome, " + name;
             $('.main .user-name').text(message);
             $('.welcome-screen').addClass('hidden');

@@ -41,7 +41,7 @@ h1 {
     color: white;
      background-position: center;
      font-family: helvetica;
-      opacity: 0.7;
+      opacity: 0.75;
     filter: alpha(opacity=100);
 }
 
@@ -70,6 +70,7 @@ input {
     flex-direction: column;
     color: white;
     background:url("http://68.media.tumblr.com/246946f5579eceba36ceb1d88b4098a5/tumblr_nr5ujzr2Cf1u3lno2o1_500.gif");
+    /*background: url("QJikW0L.gif");*/
     background-size: cover;
     background-position: center;
 
@@ -87,7 +88,7 @@ input {
     flex:1;
     background-color: #1f1f1f;
     border-radius: 22px;
-    opacity: .9;
+    opacity: 1;
 }
 
 .main footer {
@@ -254,7 +255,7 @@ table.dataTable tbody tr {
     color: gray;
 }
 td:hover{
-    font-size: 14px;
+    font-size: 15px;
     transition: 1s; 
 
     color: green;
