@@ -69,8 +69,9 @@ input {
     display: flex;
     flex-direction: column;
     color: white;
-    background:url("http://68.media.tumblr.com/246946f5579eceba36ceb1d88b4098a5/tumblr_nr5ujzr2Cf1u3lno2o1_500.gif");
-    /*background: url("QJikW0L.gif");*/
+    background-image: url("img/main_back.png"),url("img/tumb.gif");
+    
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
@@ -88,6 +89,10 @@ input {
     flex:1;
     background-color: #1f1f1f;
     border-radius: 22px;
+    background-image: url("img/tumb.gif");
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     opacity: 1;
 }
 
