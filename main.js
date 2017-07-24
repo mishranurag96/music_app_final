@@ -287,7 +287,7 @@
             $('.welcome-screen button').on('click', function() {
         var name = $('#name-input').val();
         var pass = $('#pass-input').val();
-        if (name == "Anurag" && pass == 1234) {
+        if (name == "test@acadview.com" && pass == "JavascriptRocks") {
             var message = "Welcome, " + name;
             $('.main .user-name').text(message);
             $('.welcome-screen').addClass('hidden');
