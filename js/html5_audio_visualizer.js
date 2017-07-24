@@ -1,9 +1,4 @@
-/**
- * An audio spectrum visualizer built with HTML5 Audio API
- * Author:Wayou
- * License: MIT
- * Feb 15, 2014
- */
+
 window.onload = function() {
     new Visualizer().ini();
 };

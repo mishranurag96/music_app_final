@@ -41,7 +41,7 @@ h1 {
     color: white;
      background-position: center;
      font-family: helvetica;
-      opacity: 0.75;
+      opacity: .9;
     filter: alpha(opacity=100);
 }
 
