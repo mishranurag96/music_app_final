@@ -299,3 +299,33 @@ button{
     color: white;
     border: 3px solid green;
 }
+
+#your_flipping_img{
+    background-color:red;
+    width:150px;
+    height:150px;
+}
+
+.animate{
+    -webkit-animation: flicking 2s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite;
+    animation: flicking 2s infinity;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes flicking {
+  0%   {opacity:1}
+  25%  {opacity:0}
+  50%  {opacity:1}
+  75%  {opacity:0}
+  100% {opacity:1}
+}
+
+/* Standard syntax */
+@keyframes flicking {
+  0%   {opacity:1}
+  25%  {opacity:0}
+  50%  {opacity:1}
+  75%  {opacity:0}
+  100% {opacity:1}
+}
